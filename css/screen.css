@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Grid system inspired by boostrap */
 .row {
   display: -webkit-box;
@@ -266,10 +267,34 @@
   }
 }
 
+/* Small Reset */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Balises Génériques */
 html {
   font-size: 16px;
 }
 
+body {
+  font-family: 'Raleway', sans-serif;
+  background: black;
+  color: white;
+}
+
+/* Classes génériques*/
 .m-article-project-image {
   width: 10rem;
   height: auto;
@@ -278,5 +303,41 @@ html {
 .m-article-team-image {
   width: 8rem;
   height: auto;
+}
+
+/*Menu Hamburger*/
+.l-main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-main-hamburger {
+  padding-right: 2rem;
+  color: #fdc501;
+  font-size: 2.5rem;
+}
+
+.l-main-nav li {
+  display: none;
+}
+
+.l-main-nav a {
+  text-decoration: none;
+  color: #fdc501;
+}
+
+/*Logo Header*/
+.l-main-header-logo {
+  padding: 2rem;
+  width: 5rem;
+  height: auto;
+  background: #fdc501;
 }
 /*# sourceMappingURL=screen.css.map */

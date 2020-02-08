@@ -1,7 +1,15 @@
+/* Balises Génériques */
 html{
     font-size: 16px;
 }
 
+body{
+    font-family: 'Raleway', sans-serif;
+    background: black;
+    color: white;
+}
+
+/* Classes génériques*/
 .m-article-project-image{
     width: 10rem;
     height: auto;

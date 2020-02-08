@@ -1,0 +1,29 @@
+/*Menu Hamburger*/
+.l-main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.l-main-hamburger{
+    padding-right: 2rem;
+    color: rgb(253, 197, 1);
+    font-size: 2.5rem;
+}
+
+.l-main-nav li{
+    display: none;
+}
+
+.l-main-nav a{
+    text-decoration: none;
+    color: rgb(253, 197, 1);
+}
+
+/*Logo Header*/
+.l-main-header-logo{
+    padding: 2rem;
+    width: 5rem;
+    height: auto;
+    background: rgb(253, 197, 1);
+}
