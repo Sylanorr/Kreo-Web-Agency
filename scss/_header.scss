@@ -5,10 +5,11 @@
     align-items: center;
 }
 
-.l-main-hamburger{
+.l-main-hamburger img{
     padding-right: 2rem;
-    color: rgb(253, 197, 1);
-    font-size: 2.5rem;
+    width: 2.5rem;
+    height: auto;
+    filter: invert(64%) sepia(94%) saturate(699%) hue-rotate(1deg) brightness(106%) contrast(102%);
 }
 
 .l-main-nav li{
@@ -22,8 +23,25 @@
 
 /*Logo Header*/
 .l-main-header-logo{
-    padding: 2rem;
-    width: 5rem;
+    padding: 1.7rem 2rem;
+    width: 4.5rem;
     height: auto;
     background: rgb(253, 197, 1);
+}
+
+/*Menu Tourniquet*/
+.m-dynamic-header{
+    background-image: url(../img/hero-bg.jpg);
+    margin: 0;
+    padding: 4rem 2rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.m-dynamic-header h2{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 4rem;
 }
