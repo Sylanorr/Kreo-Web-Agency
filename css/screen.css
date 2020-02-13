@@ -322,6 +322,8 @@ a {
           align-items: center;
   position: fixed;
   width: 100%;
+  height: auto;
+  max-height: 64.63px;
   background: black;
 }
 
