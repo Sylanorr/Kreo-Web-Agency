@@ -1,4 +1,4 @@
-/*Menu Hamburger*/
+/* Header Generique */
 .l-main-header{
     display: flex;
     justify-content: space-between;
@@ -10,6 +10,7 @@
     background: black;
 }
 
+/*Menu Hamburger*/
 .l-main-hamburger img{
     padding-right: 1rem;
     width: 2.5rem;
@@ -47,7 +48,7 @@
 .l-main-header-logo{
     padding: 1.5rem;
     width: 4.5rem;
-    height: auto;
+    height: 1rem;
     background: rgb(253, 197, 1);
     display: flex;
 }

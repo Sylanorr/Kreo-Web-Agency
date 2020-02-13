@@ -309,7 +309,7 @@ a {
   height: auto;
 }
 
-/*Menu Hamburger*/
+/* Header Generique */
 .l-main-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -327,6 +327,7 @@ a {
   background: black;
 }
 
+/*Menu Hamburger*/
 .l-main-hamburger img {
   padding-right: 1rem;
   width: 2.5rem;
@@ -368,7 +369,7 @@ a {
 .l-main-header-logo {
   padding: 1.5rem;
   width: 4.5rem;
-  height: auto;
+  height: 1rem;
   background: #fdc501;
   display: -webkit-box;
   display: -ms-flexbox;
