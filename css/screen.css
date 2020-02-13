@@ -351,18 +351,34 @@ a {
   text-align: center;
 }
 
+.l-main-nav-menu li {
+  border-bottom: 0.5px solid #fdc501;
+}
+
+.l-main-nav-menu li:last-child {
+  border-bottom: 0;
+}
+
 .l-main-nav a {
   text-decoration: none;
   color: #fdc501;
-  font-size: 5rem;
+  font-size: 4rem;
+  display: block;
 }
 
+/* Social Network Menu Hamburger */
 .l-main-nav-social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.l-main-nav-social i {
+  font-size: 2rem;
+  padding: 0 1rem;
 }
 
 /*Logo Header*/
