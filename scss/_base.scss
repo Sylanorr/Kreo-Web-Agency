@@ -5,15 +5,16 @@ html{
 
 body{
     font-family: 'Raleway', sans-serif;
-    background: black;
-    color: white;
+    background: $color-background;
+    color: $color-text;
+    line-height: 2rem;
 }
 
 a{
-    color: white;
+    color: $color-text;
 }
 
-/* Classes génériques*/
+/* Classes Images Génériques*/
 .m-article-project-image{
     width: 10rem;
     height: auto;

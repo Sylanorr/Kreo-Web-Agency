@@ -290,15 +290,16 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
-  background: black;
-  color: white;
+  background: #000000;
+  color: #ffffff;
+  line-height: 2rem;
 }
 
 a {
-  color: white;
+  color: #ffffff;
 }
 
-/* Classes génériques*/
+/* Classes Images Génériques*/
 .m-article-project-image {
   width: 10rem;
   height: auto;
@@ -320,11 +321,10 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: fixed;
   width: 100%;
   height: auto;
   max-height: 4rem;
-  background: black;
+  background: #000000;
 }
 
 /*Menu Hamburger*/
@@ -345,10 +345,18 @@ a {
   display: block;
   width: 100%;
   height: 100%;
-  position: fixed;
-  top: 4rem;
-  left: 0;
+  line-height: 5rem;
   text-align: center;
+  position: absolute;
+  top: 4rem;
+  right: 0;
+}
+
+.l-main-nav a {
+  text-decoration: none;
+  color: #fdc501;
+  font-size: 4rem;
+  display: block;
 }
 
 .l-main-nav-menu li {
@@ -357,13 +365,6 @@ a {
 
 .l-main-nav-menu li:last-child {
   border-bottom: 0;
-}
-
-.l-main-nav a {
-  text-decoration: none;
-  color: #fdc501;
-  font-size: 4rem;
-  display: block;
 }
 
 /* Social Network Menu Hamburger */
@@ -384,7 +385,7 @@ a {
 /*Logo Header*/
 .l-main-header-logo {
   padding: 1.5rem;
-  width: 4.5rem;
+  width: 4rem;
   height: 1rem;
   background: #fdc501;
   display: -webkit-box;
@@ -395,16 +396,27 @@ a {
 /*Menu Tourniquet*/
 .m-dynamic-header {
   background-image: url(../img/hero-bg.jpg);
-  padding: 8rem 2rem;
+  padding: 4rem 2rem;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
 }
 
+.m-dynamic-header p {
+  padding-top: 2rem;
+}
+
 .m-dynamic-header h2 {
   font-size: 2rem;
-  font-weight: bold;
-  padding-bottom: 4rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  line-height: 3rem;
+}
+
+.m-dynamic-title a {
+  text-decoration: none;
+  border-bottom: 1px solid grey;
+  display: inline-block;
 }
 /*# sourceMappingURL=screen.css.map */
