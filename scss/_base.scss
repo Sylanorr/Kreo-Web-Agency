@@ -8,6 +8,7 @@ body{
     background: $color-background;
     color: $color-text;
     line-height: 2rem;
+    text-align: center;
 }
 
 a{
@@ -23,4 +24,20 @@ a{
 .m-article-team-image{
     width: 8rem;
     height: auto;
+}
+
+/* Dynamic Button */
+.m-dynamic-button{
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%);
+    display: block;
+}
+
+.m-dynamic-button a{
+    text-decoration: none;
+    background: rgb(255, 94, 0);
+    padding: 1rem 2rem;
+    border-radius: 4px;
 }

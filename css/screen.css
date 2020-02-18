@@ -290,9 +290,10 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
-  background: #000000;
+  background: #222222;
   color: #ffffff;
   line-height: 2rem;
+  text-align: center;
 }
 
 a {
@@ -308,6 +309,23 @@ a {
 .m-article-team-image {
   width: 8rem;
   height: auto;
+}
+
+/* Dynamic Button */
+.m-dynamic-button {
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  display: block;
+}
+
+.m-dynamic-button a {
+  text-decoration: none;
+  background: #ff5e00;
+  padding: 1rem 2rem;
+  border-radius: 4px;
 }
 
 /* Header Generique */
@@ -405,7 +423,7 @@ a {
   padding: 0 1rem;
 }
 
-/*Menu Tourniquet*/
+/* Menu Tourniquet */
 .m-dynamic-header {
   background-image: url(../img/hero-bg.jpg);
   padding: 4rem 2rem;
@@ -413,22 +431,40 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
+  position: relative;
 }
 
 .m-dynamic-header p {
-  padding-top: 2rem;
+  padding-top: 1rem;
+  color: #9c9c9c;
 }
 
 .m-dynamic-header h2 {
   font-size: 2rem;
   font-weight: 600;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   line-height: 3rem;
+}
+
+.m-dynamic-header-line {
+  display: block;
+  background: #fdc501;
+  width: 6rem;
+  height: 0.2rem;
+  margin: 0 auto;
 }
 
 .m-dynamic-title a {
   text-decoration: none;
   border-bottom: 1px solid grey;
   display: inline-block;
+}
+
+/* Main */
+/* M-Section-Projets */
+.m-section-projects {
+  background: #222222;
+  padding-top: 8rem;
+  text-align: center;
 }
 /*# sourceMappingURL=screen.css.map */
