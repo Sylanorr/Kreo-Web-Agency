@@ -328,6 +328,15 @@ a {
   border-radius: 4px;
 }
 
+/* Dynamic Line */
+.m-dynamic-line {
+  display: block;
+  background: #fdc501;
+  width: 6rem;
+  height: 0.2rem;
+  margin: 0 auto;
+}
+
 /* Header Generique */
 .l-main-header {
   display: -webkit-box;
@@ -446,7 +455,7 @@ a {
   line-height: 3rem;
 }
 
-.m-dynamic-header-line {
+.m-dynamic-line {
   display: block;
   background: #fdc501;
   width: 6rem;
@@ -463,8 +472,33 @@ a {
 /* Main */
 /* M-Section-Projets */
 .m-section-projects {
-  background: #222222;
-  padding-top: 8rem;
+  background: #111417;
   text-align: center;
+  padding: 4rem 2rem;
+}
+
+.m-section-projects .m-dynamic-line {
+  background: #222222;
+}
+
+.m-section-projects p {
+  color: #9c9c9c;
+  padding: 2rem 0;
+}
+
+/* M-Section-Project Titre H2 */
+.m-section-title {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+.m-section-title:after {
+  content: ".";
+  color: yellow;
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=screen.css.map */

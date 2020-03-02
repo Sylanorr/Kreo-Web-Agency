@@ -41,3 +41,12 @@ a{
     padding: 1rem 2rem;
     border-radius: 4px;
 }
+
+/* Dynamic Line */
+.m-dynamic-line{
+    display: block;
+    background: $color-secondary;
+    width: 6rem;
+    height: 0.2rem;
+    margin: 0 auto;
+}

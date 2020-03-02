@@ -1,8 +1,34 @@
 /* Main */
 /* M-Section-Projets */
 .m-section-projects{
-    background: rgb(34, 34, 34);
-    padding-top: 8rem;
+    background: rgb(17, 20, 23);
     text-align: center;
-    
+    padding: 4rem 2rem
 }
+
+.m-section-projects .m-dynamic-line{
+    background: $color-background;
+}
+
+.m-section-projects p{
+    color: $color-text-secondary;
+    padding: 2rem 0;
+}
+
+
+/* M-Section-Project Titre H2 */
+.m-section-title{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.m-section-title:after{
+    content: ".";
+    color: yellow;
+    font-size: 1.2rem;
+}
+
