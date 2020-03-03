@@ -1,9 +1,9 @@
 /* Main */
-/* M-Section-Projets */
+/* Section-Projets */
 .m-section-projects{
     background: rgb(17, 20, 23);
     text-align: center;
-    padding: 4rem 2rem
+    padding: 4rem 0;
 }
 
 .m-section-projects .m-dynamic-line{
@@ -12,11 +12,11 @@
 
 .m-section-projects p{
     color: $color-text-secondary;
-    padding: 2rem 0;
+    padding: 2rem;
 }
 
 
-/* M-Section-Project Titre H2 */
+/* Section-Project Titre H2 */
 .m-section-title{
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -32,3 +32,13 @@
     font-size: 1.2rem;
 }
 
+/* Article-photo */
+.m-article-photo{
+    width: 100%;
+    height: auto;
+    line-height: 0;
+}
+
+.m-article-photo a{
+    display: block;
+}

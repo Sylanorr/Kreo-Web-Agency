@@ -301,11 +301,6 @@ a {
 }
 
 /* Classes Images Génériques*/
-.m-article-project-image {
-  width: 10rem;
-  height: auto;
-}
-
 .m-article-team-image {
   width: 8rem;
   height: auto;
@@ -455,14 +450,6 @@ a {
   line-height: 3rem;
 }
 
-.m-dynamic-line {
-  display: block;
-  background: #fdc501;
-  width: 6rem;
-  height: 0.2rem;
-  margin: 0 auto;
-}
-
 .m-dynamic-title a {
   text-decoration: none;
   border-bottom: 1px solid grey;
@@ -470,11 +457,11 @@ a {
 }
 
 /* Main */
-/* M-Section-Projets */
+/* Section-Projets */
 .m-section-projects {
   background: #111417;
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 4rem 0;
 }
 
 .m-section-projects .m-dynamic-line {
@@ -483,10 +470,10 @@ a {
 
 .m-section-projects p {
   color: #9c9c9c;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
-/* M-Section-Project Titre H2 */
+/* Section-Project Titre H2 */
 .m-section-title {
   padding-top: 4rem;
   padding-bottom: 2rem;
@@ -500,5 +487,16 @@ a {
   content: ".";
   color: yellow;
   font-size: 1.2rem;
+}
+
+/* Article-photo */
+.m-article-photo {
+  width: 100%;
+  height: auto;
+  line-height: 0;
+}
+
+.m-article-photo a {
+  display: block;
 }
 /*# sourceMappingURL=screen.css.map */
