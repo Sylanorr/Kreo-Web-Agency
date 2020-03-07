@@ -64,7 +64,7 @@
     text-align: center;
 }
 
-/* Titres H3 Jaune + Content */
+/* Section Services - Titres H3 Jaune + Content */
 .m-section-services h3{
     color: $color-secondary;
     font-weight: 600;
@@ -94,7 +94,7 @@
     text-align: center;
 }
 
-/* Titres H3 Jaune + Content */
+/* Section Who are We - Titres H3 Jaune + Content */
 .m-section-who h3{
     color: $color-secondary;
     font-weight: 600;
@@ -102,4 +102,40 @@
     
 .m-section-who h3::after{
     content: ".";
+}
+
+/* Section Team */
+.m-section-team{
+    background: $color-background-section;
+    padding: 0 2rem;
+    text-align: left;
+}
+
+.m-section-team .m-dynamic-line{
+    background: $color-background;
+    margin-bottom: 2rem;
+}
+
+.m-section-team p{
+    color: $color-text-secondary
+}
+
+/* Section Team - Padding vertical par article */
+.m-article-team{
+    padding-top: 2rem;
+}
+
+/* Section Team - Entete Image + Nom + Titre */
+.m-section-team h3{
+    color: $color-secondary;
+    font-weight: 600;
+}
+
+/* Section Team - Logo réseaux sociaux */
+.m-section-team .m-article-team-social a{
+    padding: 0 .5rem;
+}
+
+.m-section-team .m-article-team-social a:first-child{
+    padding-left: 0;
 }
