@@ -290,7 +290,7 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
-  background: #222222;
+  background: #313131;
   color: #ffffff;
   line-height: 2rem;
   text-align: center;
@@ -495,7 +495,7 @@ a {
 }
 
 .m-section-projects .m-dynamic-line {
-  background: #222222;
+  background: #313131;
 }
 
 .m-section-projects p {
@@ -511,6 +511,7 @@ a {
   font-weight: 600;
   letter-spacing: 2px;
   font-size: 1rem;
+  text-align: center;
 }
 
 .m-section-title:after {
@@ -528,5 +529,65 @@ a {
 
 .m-article-photo a {
   display: block;
+}
+
+/* Section-Services */
+.m-section-services {
+  background: #111417;
+  text-align: left;
+  padding: 0 2rem;
+}
+
+.m-section-services .m-dynamic-line {
+  background: #313131;
+}
+
+.m-section-services p {
+  padding: 2rem 0;
+  color: #9c9c9c;
+}
+
+.m-section-services p:nth-child(3) {
+  text-align: center;
+}
+
+/* Titres H3 Jaune + Content */
+.m-section-services h3 {
+  color: #fdc501;
+  font-weight: 600;
+}
+
+.m-section-services h3::after {
+  content: ".";
+}
+
+/* Section Who Are We */
+.m-section-who {
+  background: #111417;
+  text-align: left;
+  padding: 0 2rem;
+}
+
+.m-section-who .m-dynamic-line {
+  background: #313131;
+}
+
+.m-section-who p {
+  padding: 2rem 0;
+  color: #9c9c9c;
+}
+
+.m-section-who p:nth-child(3) {
+  text-align: center;
+}
+
+/* Titres H3 Jaune + Content */
+.m-section-who h3 {
+  color: #fdc501;
+  font-weight: 600;
+}
+
+.m-section-who h3::after {
+  content: ".";
 }
 /*# sourceMappingURL=screen.css.map */

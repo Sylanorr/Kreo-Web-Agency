@@ -1,7 +1,7 @@
 /* Main */
 /* Section-Projets */
 .m-section-projects{
-    background: rgb(17, 20, 23);
+    background: $color-background-section;
     text-align: center;
     padding: 4rem 0;
 }
@@ -24,6 +24,7 @@
     font-weight: 600;
     letter-spacing: 2px;
     font-size: 1rem;
+    text-align: center;
 }
 
 .m-section-title:after{
@@ -41,4 +42,64 @@
 
 .m-article-photo a{
     display: block;
+}
+
+/* Section-Services */
+.m-section-services{
+    background: $color-background-section;
+    text-align: left;
+    padding: 0 2rem;
+}
+
+.m-section-services .m-dynamic-line{
+    background: $color-background;
+}
+
+.m-section-services p{
+    padding: 2rem 0;
+    color: $color-text-secondary;
+}
+
+.m-section-services p:nth-child(3){
+    text-align: center;
+}
+
+/* Titres H3 Jaune + Content */
+.m-section-services h3{
+    color: $color-secondary;
+    font-weight: 600;
+}
+    
+.m-section-services h3::after{
+    content: ".";
+}
+
+/* Section Who Are We */
+.m-section-who{
+    background: $color-background-section;
+    text-align: left;
+    padding: 0 2rem;
+}
+
+.m-section-who .m-dynamic-line{
+    background: $color-background;
+}
+
+.m-section-who p{
+    padding: 2rem 0;
+    color: $color-text-secondary;
+}
+
+.m-section-who p:nth-child(3){
+    text-align: center;
+}
+
+/* Titres H3 Jaune + Content */
+.m-section-who h3{
+    color: $color-secondary;
+    font-weight: 600;
+}
+    
+.m-section-who h3::after{
+    content: ".";
 }
