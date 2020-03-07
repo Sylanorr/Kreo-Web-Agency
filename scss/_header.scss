@@ -74,7 +74,7 @@
     padding: 0 1rem;
 }
 
-/* Menu Tourniquet */
+/* Menu Carroussel */
 .m-dynamic-header{
     background-image: url(../img/hero-bg.jpg);
     padding: 4rem 2rem;
@@ -101,4 +101,23 @@
     text-decoration: none;
     border-bottom: 1px solid grey;
     display: inline-block;
+}
+
+/* Menu Carroussel - Rond de défilement */
+.m-dynamic-circle{
+    padding-top: 2rem;
+}
+
+.m-dynamic-circle-item{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background: $color-text;
+    margin: 0 .3rem;
+    cursor: pointer;
+}
+
+.m-dynamic-circle-item:last-child{
+    background: $color-secondary;
 }

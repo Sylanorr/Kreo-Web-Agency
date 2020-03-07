@@ -21,20 +21,31 @@ a{
     height: auto;
 }
 
-/* Dynamic Button */
+/* Bouton dynamique - Centrage entre 2 blocs + Orange*/
 .m-dynamic-button{
     position: absolute;
     bottom: -1rem;
     left: 50%;
     transform: translate(-50%);
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 .m-dynamic-button a{
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
     background: rgb(255, 94, 0);
-    padding: 1rem 2rem;
+    padding: 1.2rem 1.5rem;
     border-radius: 4px;
+}
+
+.m-dynamic-button .chevron{
+    font-size: .5rem;
+    padding-left: 1rem;
 }
 
 /* Dynamic Line */

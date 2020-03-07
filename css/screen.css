@@ -306,7 +306,7 @@ a {
   height: auto;
 }
 
-/* Dynamic Button */
+/* Bouton dynamique - Centrage entre 2 blocs + Orange*/
 .m-dynamic-button {
   position: absolute;
   bottom: -1rem;
@@ -314,13 +314,24 @@ a {
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .m-dynamic-button a {
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 2px;
   background: #ff5e00;
-  padding: 1rem 2rem;
+  padding: 1.2rem 1.5rem;
   border-radius: 4px;
+}
+
+.m-dynamic-button .chevron {
+  font-size: .5rem;
+  padding-left: 1rem;
 }
 
 /* Dynamic Line */
@@ -427,7 +438,7 @@ a {
   padding: 0 1rem;
 }
 
-/* Menu Tourniquet */
+/* Menu Carroussel */
 .m-dynamic-header {
   background-image: url(../img/hero-bg.jpg);
   padding: 4rem 2rem;
@@ -454,6 +465,25 @@ a {
   text-decoration: none;
   border-bottom: 1px solid grey;
   display: inline-block;
+}
+
+/* Menu Carroussel - Rond de défilement */
+.m-dynamic-circle {
+  padding-top: 2rem;
+}
+
+.m-dynamic-circle-item {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background: #ffffff;
+  margin: 0 .3rem;
+  cursor: pointer;
+}
+
+.m-dynamic-circle-item:last-child {
+  background: #fdc501;
 }
 
 /* Main */
