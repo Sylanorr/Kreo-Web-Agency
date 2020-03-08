@@ -595,7 +595,7 @@ a {
 .m-section-team {
   background: #111417;
   padding: 0 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
   text-align: left;
 }
 
@@ -642,5 +642,58 @@ a {
 
 .m-section-team .m-article-team-social a:hover {
   color: #fdc501;
+}
+
+/* Section Quote - Citation Steve Jobs */
+.l-section-quote {
+  padding: 4rem 2rem;
+  background: #fdc501;
+}
+
+.l-section-quote p {
+  font-size: 1.2rem;
+  padding: 2rem 0;
+  text-shadow: 1px 1px 2px #a1a1a1;
+}
+
+.l-section-quote h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.l-section-quote h3 {
+  color: #111417;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.l-section-quote img {
+  width: 4rem;
+  height: 4rem;
+  float: left;
+  border-radius: 4rem;
+  border: 5px solid white;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 2rem;
+}
+
+.l-section-quote-group {
+  max-width: 100%;
+  width: 15rem;
+  height: auto;
+  text-align: left;
+  margin: 2rem auto;
+}
+
+/* Section Quote - Boules de défilement */
+.l-section-quote .m-dynamic-circle-item {
+  background: #ffffff;
+}
+
+.l-section-quote .m-dynamic-circle-item:last-child {
+  background: #111417;
 }
 /*# sourceMappingURL=screen.css.map */
