@@ -108,6 +108,7 @@
 .m-section-team{
     background: $color-background-section;
     padding: 0 2rem;
+    padding-bottom: 4rem;
     text-align: left;
 }
 
@@ -131,6 +132,18 @@
     font-weight: 600;
 }
 
+.m-article-team img{
+    float: left;
+    width: 7rem;
+    height: auto;
+    padding-right: 2rem;
+}
+
+.m-article-team p{
+    padding-top: 0;
+    padding-top: 4rem;
+}
+
 /* Section Team - Logo réseaux sociaux */
 .m-section-team .m-article-team-social a{
     padding: 0 .5rem;
@@ -138,4 +151,8 @@
 
 .m-section-team .m-article-team-social a:first-child{
     padding-left: 0;
+}
+
+.m-section-team .m-article-team-social a:hover{
+    color: $color-secondary;
 }
