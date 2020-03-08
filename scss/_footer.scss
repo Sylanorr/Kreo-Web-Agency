@@ -1,0 +1,49 @@
+/* Section Footer - Get in touch with us */
+footer{
+    padding: 6rem 2rem;
+    background: $color-background-section;
+}
+
+footer .m-dynamic-line{
+    background: $color-background;
+}
+
+/* Section Footer - Mise en forme formulaire */
+
+footer .l-footer-loginform{
+    padding: 4rem 1rem;
+}
+
+.l-loginform-item{
+    display: flex;
+    justify-content: center;
+}
+
+.l-footer-loginform .l-loginform-item input{
+    font-family: 'Raleway', sans-serif;
+    max-width: 20rem;
+    width: 100%;
+    height: 2rem;
+    border: 0;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: $color-background;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.l-footer-loginform .m-loginform-message input{
+    height: 15rem;
+    width: 100%;
+}
+
+/* Section Footer - Mise en forme Formulaire - Boutton Submit */
+.l-footer-loginform .m-loginform-sendbutton input{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    background: $color-secondary;
+    padding: 2rem 0;
+}

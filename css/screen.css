@@ -696,4 +696,57 @@ a {
 .l-section-quote .m-dynamic-circle-item:last-child {
   background: #111417;
 }
+
+/* Section Footer - Get in touch with us */
+footer {
+  padding: 6rem 2rem;
+  background: #111417;
+}
+
+footer .m-dynamic-line {
+  background: #313131;
+}
+
+/* Section Footer - Mise en forme formulaire */
+footer .l-footer-loginform {
+  padding: 4rem 1rem;
+}
+
+.l-loginform-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.l-footer-loginform .l-loginform-item input {
+  font-family: 'Raleway', sans-serif;
+  max-width: 20rem;
+  width: 100%;
+  height: 2rem;
+  border: 0;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #313131;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 3px;
+}
+
+.l-footer-loginform .m-loginform-message input {
+  height: 15rem;
+  width: 100%;
+}
+
+/* Section Footer - Mise en forme Formulaire - Boutton Submit */
+.l-footer-loginform .m-loginform-sendbutton input {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  background: #fdc501;
+  padding: 2rem 0;
+}
 /*# sourceMappingURL=screen.css.map */
