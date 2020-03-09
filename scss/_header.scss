@@ -37,7 +37,7 @@
 }
 
 .l-main-nav.is-active{
-    background: rgba($color: #000000, $alpha: 0.85);
+    background: rgba($color: #000000, $alpha: 0.9);
     display: block;
     width: 100%;
     height: 100%;
@@ -46,13 +46,20 @@
     position: absolute;
     top: 4rem;
     right: 0;
+    z-index: 10;
 }
 
 .l-main-nav a{
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     color: $color-secondary;
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: block;
+}
+
+.l-main-nav a:hover{
+    color: $color-text;
 }
 
 .l-main-nav-menu li{
