@@ -297,10 +297,9 @@ body {
 }
 
 /* Test Input mise en forme Safari */
-input {
+input[type="submit"] {
   -moz-appearance: none;
   -webkit-appearance: none;
-  background: blue !important;
 }
 
 a {
