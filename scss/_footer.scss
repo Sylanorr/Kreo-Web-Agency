@@ -1,6 +1,6 @@
 /* Section Footer - Get in touch with us */
 footer{
-    padding: 6rem 2rem;
+    padding: 0rem 2rem;
     background: $color-background-section;
 }
 
@@ -12,6 +12,7 @@ footer .m-dynamic-line{
 
 footer .l-footer-loginform{
     padding: 4rem 1rem;
+    padding-bottom: 0;
 }
 
 .l-loginform-item{
@@ -59,4 +60,70 @@ footer .l-footer-loginform{
     font-size: 1rem;
     letter-spacing: 2px;
     background: $color-secondary;
+}
+
+/* Section Footer - Mise en forme de la partie Adresse */
+.l-footer-address{
+    text-align: left;
+    color: $color-text-secondary;
+    padding-bottom: 5rem;
+    position: relative;
+
+    h2{
+        color: $color-secondary;
+        font-weight: 600;
+    }
+
+    p,address{
+        padding: 1rem 0;
+        font-style: normal;
+    }
+}
+
+/* Section Footer - Mise en forme du bouton dynamique Back to top */
+.l-main-footer{
+    position: relative;
+}
+
+.m-dynamic-button-footer{
+    position: absolute;
+    bottom: 21rem;
+    left: 50%;
+    transform: translate(-50%);
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.m-dynamic-button-footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background: rgb(255, 94, 0);
+    padding: 1.2rem 1.5rem;
+    border-radius: 4px;
+}
+
+.m-dynamic-button-footer .chevron{
+    font-size: .5rem;
+    padding-left: 1rem;
+}
+
+/* Section Footer - Social Icones */
+.l-footer-social{
+    padding: 4rem 0;
+    
+    i{
+        color: $color-background;
+        font-size: 2rem;
+        padding: 0 .5rem;
+    }
+}
+
+/* Section Footer - Logo */
+.l-footer-logo{
+    width: 8rem;
+    height: auto;
 }
