@@ -33,17 +33,30 @@ footer .l-footer-loginform{
     border-radius: 3px;
 }
 
-.l-footer-loginform .m-loginform-message input{
-    height: 15rem;
-    width: 100%;
+.l-footer-loginform .m-loginform-message textarea{
+    font-family: 'Raleway', sans-serif;
+    min-height: 20rem;
+    width: 20rem;
+    height: 20rem;
+    border: 0;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: $color-background;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 3px;
 }
 
 /* Section Footer - Mise en forme Formulaire - Boutton Submit */
 .l-footer-loginform .m-loginform-sendbutton input{
+    cursor: pointer;
+    max-width: 100%;
+    width: 22rem;
+    height: 4rem;
+    padding: 0;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1rem;
     letter-spacing: 2px;
     background: $color-secondary;
-    padding: 2rem 0;
 }
