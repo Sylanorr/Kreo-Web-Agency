@@ -1,6 +1,5 @@
 /* Section Footer - Get in touch with us */
 footer{
-    padding: 0rem 2rem;
     background: $color-background-section;
 }
 
@@ -83,11 +82,12 @@ footer .l-footer-loginform{
 /* Section Footer - Mise en forme du bouton dynamique Back to top */
 .l-main-footer{
     position: relative;
+    padding: 0 2rem;
 }
 
 .m-dynamic-button-footer{
     position: absolute;
-    bottom: 21rem;
+    bottom: -1rem;
     left: 50%;
     transform: translate(-50%);
     display: block;
@@ -111,19 +111,48 @@ footer .l-footer-loginform{
     padding-left: 1rem;
 }
 
-/* Section Footer - Social Icones */
-.l-footer-social{
-    padding: 4rem 0;
+/* Dynamic Line - l-main-copyright */
+.l-main-copyright .m-dynamic-line{
+    display: block;
+    background: $color-text-copyright;
+    width: 18rem;
+    height: 1px;
+    margin: 4rem auto;
     
+}
+
+/* Section Copyright (l-main-coryright) - Social Icones */
+.l-main-copyright{
+    background: black;
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+    color: $color-text-copyright;
+}
+.l-footer-social{
+    padding-top: 5rem;
     i{
-        color: $color-background;
+        color: $color-text-copyright;
         font-size: 2rem;
         padding: 0 .5rem;
     }
+}
+
+/* Section copyright - Espacement du 1er paragraphe + lien*/
+.l-footer-copyright .l-footer-paragraph{
+    padding-bottom: 4rem;
+}
+
+.l-footer-copyright a{
+    text-decoration: none;
+}
+
+.l-footer-copyright a:hover{
+    color: $color-secondary;
 }
 
 /* Section Footer - Logo */
 .l-footer-logo{
     width: 8rem;
     height: auto;
+    padding-bottom: 2rem;
 }
